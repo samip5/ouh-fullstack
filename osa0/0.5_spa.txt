@@ -1,0 +1,22 @@
+title React app (SPA)
+
+Client->Server: HTTP GET spa
+Server->Client: HTML Code
+Client->Server: HTTP GET main.css
+Server->Client: CSS3 styles
+Client->Server: HTTP get spa.js
+Server->Client: Javascript file
+
+note over Client:
+Browser starts executing the js file
+and asks for the JSON data from the server.
+end note
+
+
+Client->Server: HTTP GET data.json
+Server->Client: {content: "test", date: "2019-05-27T17:37:57.249Z"}, ...]
+
+Note over Client:
+Browser executes even handler, which
+in return displays the notes.
+end note
