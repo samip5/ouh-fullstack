@@ -13,20 +13,25 @@ const App = () => {
     const [good, setGood] = useState(0);
     const [neutral, setNeutral] = useState(0);
     const [bad, setBad] = useState(0);
+    const [rate, setRate] = useState(0);
+    const all = good + neutral + bad;
+    const avg = rate/all;
+    const positiv = 100*good/all + " " + "%";
+
 
     const handleGood = () => {
-        console.log('Good button clicked and added.');
         setGood(good +1);
+        setRate(rate + 1);
     };
 
     const handleNeutral = () => {
-        console.log('Neutral button clicked and added.');
         setNeutral(neutral + 1);
+        setRate(rate + 0);
     };
 
     const handleBad = () => {
-        console.log('Bad button clicked and added.');
         setBad(bad + 1);
+        setRate(rate - 1);
     };
 
     return (
@@ -43,6 +48,9 @@ const App = () => {
             <Display name="Good" value={good}/>
             <Display name="Neutral" value={neutral}/>
             <Display name="Bad" value={bad}/>
+            <Display name="All" value={all}/>
+            <Display name="Average" value={avg}/>
+            <Display name="Positive" value={positiv} />
             </div>
         </div>
     )
