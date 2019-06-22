@@ -1,33 +1,51 @@
 import React, { useState} from 'react'
 import ReactDOM from 'react-dom'
 
-const Display = props => <div>{props.name}: {props.value}</div>;
-
 const Button = (props) => (
     <button onClick={props.handleClick}>
         {props.text}
     </button>
 );
 
+const Statistic = (props) => {
+    return (
+        <>
+            <tr>
+                <td>{props.name}:</td><td>{props.value}</td>
+            </tr>
+        </>
+    )
+};
+
+const Statistics2 = (props) => {
+    return (
+        <>
+            <tr>
+                <td>{props.name}:</td><td>{props.value} %</td>
+            </tr>
+        </>
+    )
+};
+
 const Statistics = (props) => {
     const all = props.good + props.neutral + props.bad;
     const avg = (props.good-props.bad)/all;
-    const positiv = 100*props.good/all + " " + "%";
+    const positiv = 100*props.good/all;
 
     if (all > 0 ) {
         return (
             <div>
                 <h2>Stats</h2>
-                <p>
-                    Good: {props.good}<br/>
-                    Neutral: {props.neutral}<br/>
-                    Bad: {props.bad}<br/>
-                </p>
-                <p>
-                    Total: {all}<br/>
-                    Avg: {avg}<br/>
-                    Positive: {positiv}<br/>
-                </p>
+                <table>
+                    <tbody>
+                        <Statistic name="Good" value={props.good}/>
+                        <Statistic name="Neutral" value={props.neutral}/>
+                        <Statistic name="Bad" value={props.bad}/>
+                        <Statistic name="Total" value={all}/>
+                        <Statistic name="Avg" value={avg}/>
+                        <Statistics2 name="Positive" value={positiv}/>
+                    </tbody>
+                </table>
             </div>
         )
     } else {
