@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8d4f57-2b3d-4a1d-9c48-f53aa0baaad4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/part1/kurssitiedot/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/part1/kurssitiedot/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -15,18 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part1/kurssitiedot/src/index.js">
+        <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="360">
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,12 +44,14 @@
         <option value="$PROJECT_DIR$/osa0/0.5_spa.txt" />
         <option value="$PROJECT_DIR$/osa0/0.6_spa_new_note.txt" />
         <option value="$PROJECT_DIR$/part1/kurssitiedot/src/index.js" />
+        <option value="$PROJECT_DIR$/part1/unicafe/src/index.js" />
+        <option value="$PROJECT_DIR$/part1/anekdotit/src/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="y" value="166" />
+    <option name="x" value="205" />
+    <option name="y" value="45" />
     <option name="width" value="1392" />
     <option name="height" value="995" />
   </component>
@@ -60,7 +61,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,16 +73,11 @@
               <item name="ouh-fullstack" type="462c0819:PsiDirectoryNode" />
               <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ouh-fullstack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ouh-fullstack" type="462c0819:PsiDirectoryNode" />
-              <item name="part1" type="462c0819:PsiDirectoryNode" />
-              <item name="kurssitiedot" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -91,6 +86,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sami\IdeaProjects\ouh-fullstack\part1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,6 +106,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="npm.Anekdotit start">
+    <configuration name="Anekdotit start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/part1/anekdotit/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unicafe start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/part1/unicafe/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.Unicafe start" />
+      <item itemvalue="npm.Anekdotit start" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -116,6 +138,11 @@
       <updated>1558978057298</updated>
       <workItem from="1558978061073" duration="14000" />
       <workItem from="1558978094257" duration="1125000" />
+      <workItem from="1561202983463" duration="77000" />
+      <workItem from="1561203109645" duration="16074000" />
+      <workItem from="1561929535945" duration="281000" />
+      <workItem from="1561929836491" duration="294000" />
+      <workItem from="1561930829770" duration="2143000" />
     </task>
     <task id="LOCAL-00001" summary="0.4: It's complete.">
       <created>1558978876043</created>
@@ -138,17 +165,66 @@
       <option name="project" value="LOCAL" />
       <updated>1558986959778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.6: Unicafe step1, done">
+      <created>1561216855000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561216855000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.6: Unicafe step2, done">
+      <created>1561219161599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561219161600</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.6: Unicafe step3, done">
+      <created>1561219941071</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561219941071</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.6: Unicafe step4, done">
+      <created>1561220134529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561220134529</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.6: Unicafe step6, done&#10;&#10;Skipped step5.">
+      <created>1561223695135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561223695135</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.12: Anekdots, step1">
+      <created>1561224256410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561224256410</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.12: Anekdots, step1">
+      <created>1561929922497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561929922497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1373000" />
+    <option name="totallyTimeSpent" value="20242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="302" y="53" width="1392" height="985" extended-state="0" />
+    <frame x="205" y="45" width="1392" height="995" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3482143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37387386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -156,16 +232,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36961722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -206,12 +282,32 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.4: It's complete." />
     <MESSAGE value="0.5: It's done." />
     <MESSAGE value="# This is a combination of 2 commits.&#10;# This is the 1st commit message:&#10;&#10;parent 1fd40cc9665c8eb6fbb5ff9381d99deeecb951af&#10;author Sami Mäntysaari &lt;sm@samip.fi&gt; 1558979994 +0300&#10;committer Sami Mäntysaari &lt;sm@samip.fi&gt; 1558986527 +0300&#10;&#10;1: Started working on the chapter 1&#10;&#10;# This is the commit message #2:&#10;&#10;1.1: Kurssitiedot, step1 - Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="# This is a combination of 2 commits.&#10;# This is the 1st commit message:&#10;&#10;parent 1fd40cc9665c8eb6fbb5ff9381d99deeecb951af&#10;author Sami Mäntysaari &lt;sm@samip.fi&gt; 1558979994 +0300&#10;committer Sami Mäntysaari &lt;sm@samip.fi&gt; 1558986527 +0300&#10;&#10;1: Started working on the chapter 1&#10;&#10;# This is the commit message #2:&#10;&#10;1.1: Kurssitiedot, step1 - Done" />
+    <MESSAGE value="1.6: Unicafe step1, done" />
+    <MESSAGE value="1.6: Unicafe step2, done" />
+    <MESSAGE value="1.6: Unicafe step3, done" />
+    <MESSAGE value="1.6: Unicafe step4, done" />
+    <MESSAGE value="1.6: Unicafe step6, done&#10;&#10;Skipped step5." />
+    <MESSAGE value="1.12: Anekdots, step1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.12: Anekdots, step1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -224,24 +320,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/osa0/0.4_uusi_muistiinpano.txt">
+    <entry file="file://$PROJECT_DIR$/osa0/0.4_uusi_muistiinpano.txt" />
+    <entry file="file://$PROJECT_DIR$/osa0/0.5_spa.txt" />
+    <entry file="file://$PROJECT_DIR$/osa0/0.6_spa_new_note.txt" />
+    <entry file="file://$PROJECT_DIR$/part1/kurssitiedot/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="1128">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/osa0/0.5_spa.txt">
+    <entry file="file://$PROJECT_DIR$/part1/unicafe/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1/unicafe/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1/unicafe/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="216">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/osa0/0.6_spa_new_note.txt">
+    <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/part1/anekdotit/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
