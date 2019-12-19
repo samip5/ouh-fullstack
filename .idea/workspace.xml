@@ -2,111 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8d4f57-2b3d-4a1d-9c48-f53aa0baaad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/puhelinluettelo/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/osa0/0.4_uusi_muistiinpano.txt" />
-        <option value="$PROJECT_DIR$/osa0/0.5_spa.txt" />
-        <option value="$PROJECT_DIR$/osa0/0.6_spa_new_note.txt" />
-        <option value="$PROJECT_DIR$/part1/kurssitiedot/src/index.js" />
-        <option value="$PROJECT_DIR$/part1/unicafe/src/index.js" />
-        <option value="$PROJECT_DIR$/part1/anekdotit/src/index.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="205" />
-    <option name="y" value="45" />
-    <option name="width" value="1392" />
-    <option name="height" value="995" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ouh-fullstack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ouh-fullstack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ouh-fullstack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ouh-fullstack" type="462c0819:PsiDirectoryNode" />
-              <item name="part1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1VAyId8v6NaJpfluCwBrnWgbuft" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/part2/country-info/package.json" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/part2/puhelinluettelo/src" />
       <recent name="C:\Users\Sami\IdeaProjects\ouh-fullstack\part1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="npm.Anekdotit start">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Anekdotit start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/part1/anekdotit/package.json" />
       <command value="start" />
@@ -121,10 +80,30 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/part2/country-info/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.Unicafe start" />
       <item itemvalue="npm.Anekdotit start" />
+      <item itemvalue="npm.start" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,6 +122,7 @@
       <workItem from="1561929535945" duration="281000" />
       <workItem from="1561929836491" duration="294000" />
       <workItem from="1561930829770" duration="2143000" />
+      <workItem from="1576710127696" duration="7649000" />
     </task>
     <task id="LOCAL-00001" summary="0.4: It's complete.">
       <created>1558978876043</created>
@@ -214,48 +194,39 @@
       <option name="project" value="LOCAL" />
       <updated>1561929922497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2.5: Kurssitiedot done.">
+      <created>1576713549239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576713549239</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2.11: Puhelinluettelo done.">
+      <created>1576715805382</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576715805382</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2.13: Maiden tiedot, valmis ilman säätä.">
+      <created>1576717686195</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576717686195</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20242000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="205" y="45" width="1392" height="995" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37387386" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36961722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.328125" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/part2/kurssitiedot/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/part2/kurssitiedot/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/part2/kurssitiedot/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -263,20 +234,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -307,66 +265,55 @@
     <MESSAGE value="1.6: Unicafe step4, done" />
     <MESSAGE value="1.6: Unicafe step6, done&#10;&#10;Skipped step5." />
     <MESSAGE value="1.12: Anekdots, step1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.12: Anekdots, step1" />
+    <MESSAGE value="2.5: Kurssitiedot done." />
+    <MESSAGE value="2.18: Puhelinluettelo done." />
+    <MESSAGE value="2.13: Maiden tiedot, valmis ilman säätä." />
+    <option name="LAST_COMMIT_MESSAGE" value="2.13: Maiden tiedot, valmis ilman säätä." />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/osa0/0.4_uusi_muistiinpano.txt" />
-    <entry file="file://$PROJECT_DIR$/osa0/0.5_spa.txt" />
-    <entry file="file://$PROJECT_DIR$/osa0/0.6_spa_new_note.txt" />
-    <entry file="file://$PROJECT_DIR$/part1/kurssitiedot/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/unicafe/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/unicafe/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/unicafe/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.css" />
-    <entry file="file://$PROJECT_DIR$/part1/anekdotit/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part1/anekdotit/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="2344" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576716597500">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2344" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576716597500" />
+    <state x="2618" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576710896396">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2618" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576710896396" />
+    <state x="2480" y="49" key="CommitChangelistDialog2" timestamp="1576717918985">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="49" key="CommitChangelistDialog2/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717918985" />
+    <state x="2667" y="298" key="FileChooserDialogImpl" timestamp="1576716596059">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2667" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576716596059" />
+    <state x="2728" y="444" key="GitRewordDialog" timestamp="1576717759680">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2728" y="444" key="GitRewordDialog/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717759680" />
+    <state width="1874" height="300" key="GridCell.Tab.0.bottom" timestamp="1576717687180">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="300" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717687180" />
+    <state width="1874" height="300" key="GridCell.Tab.0.center" timestamp="1576717687180">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="300" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717687180" />
+    <state width="1874" height="300" key="GridCell.Tab.0.left" timestamp="1576717687180">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="300" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717687180" />
+    <state width="1874" height="300" key="GridCell.Tab.0.right" timestamp="1576717687180">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="300" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717687180" />
+    <state x="2368" y="118" key="SettingsEditor" timestamp="1576710581030">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2368" y="118" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576710581030" />
+    <state x="2480" y="272" key="Vcs.Push.Dialog.v2" timestamp="1576717831862">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1576717831862" />
   </component>
 </project>
